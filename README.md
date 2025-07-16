@@ -10,8 +10,6 @@ Built with:
 - `tkinter` GUI
 - Local file storage for version history
 
----
-
 ## ✨ Features
 
 - ✅ **Multi-client real-time chat**
@@ -20,8 +18,6 @@ Built with:
 - ✅ **Private messaging between users**
 - ✅ **Tkinter GUI for easy interaction**
 - ✅ **Separate folders for saved server and client files**
-
----
 
 ## 💻 How It Works
 
@@ -39,27 +35,19 @@ Run `ClientFileGui.py` from multiple instances. Features include:
 - Viewing/restoring versions
 - Sending private messages
 
----
-
 ## 📸 Screenshots
 
-### Server Running
+### Client Name and File Name(Version or Upload)
+
+![Client Name](screenshots/Client_name.png) ![File Name](screenshots/File_name.png)
+
+### Client Chats and Server Running below
 
 ![Server](screenshots/Client_chat.png)
-
-### Name of the Client while Entering
-
-![Client Name](screenshots/Client_name.png)
 
 ### Version Selection Box
 
 ![Version Selection](screenshots/Version_selection.png)
-
-### File Name for Upload or File Version
-
-![File Name](screenshots/File_name.png)
-
----
 
 ## 🚀 How to Run
 
@@ -68,16 +56,22 @@ Run `ClientFileGui.py` from multiple instances. Features include:
 3. Run `ClientFileGui.py` from multiple terminals
 4. Enjoy chatting and versioned file sharing!
 
----
-
 ## 📁 Folder Structure
 
-LayerFileChat/
-├── ServerFileGui.py # Server script (run first)
-├── ClientFileGui.py # Client GUI script (can be run by multiple users)
-├── screenshots/ # Contains output screenshots
-│ ├── server_running.png
-│ ├── client_upload.png
-│ ├── version_selection.png
-│ └── file_restore.png
-└── README.md
+`LayerFileChat/`
+
+`├── ServerFileGui.py # Server script (run first)`
+
+`├── ClientFileGui.py # Client GUI script (can be run by multiple users)`
+
+`├── screenshots/ # Contains output screenshots`
+
+`│ ├── server_running.png`
+
+`│ ├── client_upload.png`
+
+`│ ├── version_selection.png`
+
+`│ └── file_restore.png`
+
+`└── README.md`
